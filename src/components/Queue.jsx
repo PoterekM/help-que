@@ -23,7 +23,7 @@ componentWillUnmount(){
 }
 
 updateTicketTimeSinceOpened() {
-
+  this.forceUpdate();
 }
 
 render() {
